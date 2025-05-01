@@ -60,13 +60,14 @@ function ilacSec(ilac) {
   const sutKutusu = document.getElementById("sutKutusu");
   const secilen = ilac.isim.toLowerCase();
   const etken = ilac.etken_madde.toLowerCase();
+  const temizEtken = etken.replace(/ hcl| hidroklorür/g, "").trim();
   let bulundu = false;
   sutKutusu.innerHTML = "";
 
   for (const grup in sutVeri) {
     const kurallar = sutVeri[grup];
     const eslesen = kurallar.ilaclar.map(x => x.toLowerCase());
-    if (eslesen.includes(secilen) || eslesen.includes(etken)) {
+    if (eslesen.includes(secilen) || eslesen.includes(etken) || eslesen.includes(temizEtken)) {
       const kriterler = kurallar.kriterler.map(k => `<li>${k}</li>`).join("");
       sutKutusu.innerHTML += `
         <h3>SUT Kuralları (${grup})</h3>

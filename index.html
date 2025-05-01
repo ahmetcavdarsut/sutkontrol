@@ -42,13 +42,7 @@ function aramaYap() {
 
   if (input.length < 3) return;
 
-  
   const filtreli = ilaclar.filter(ilac =>
-    (ilac.isim && ilac.isim.toLowerCase().includes(input)) ||
-    (ilac.barkod && ilac.barkod.includes(input)) ||
-    (ilac.etken_madde && ilac.etken_madde.toLowerCase().includes(input))
-  );
-
     (ilac.isim && ilac.isim.toLowerCase().includes(input)) ||
     (ilac.barkod && ilac.barkod.includes(input)) ||
     (ilac.etken_madde && ilac.etken_madde.toLowerCase().includes(input))

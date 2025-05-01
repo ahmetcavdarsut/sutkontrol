@@ -60,15 +60,23 @@ function ilacSec(ilac) {
   const sutKutusu = document.getElementById("sutKutusu");
   const secilen = ilac.isim.toLowerCase();
   const etken = ilac.etken_madde.toLowerCase();
+  let bulundu = false;
+  sutKutusu.innerHTML = "";
 
-  const grup421 = sutVeri["4.2.1"];
-  if (grup421 && grup421.ilaclar.map(x => x.toLowerCase()).includes(secilen) || grup421.ilaclar.map(x => x.toLowerCase()).includes(etken)) {
-    const kriterler = grup421.kriterler.map(k => `<li>${k}</li>`).join("");
-    sutKutusu.innerHTML = `
-      <h3>SUT Kuralları (4.2.1)</h3>
-      <ul>${kriterler}</ul>
-    `;
-  } else {
+  for (const grup in sutVeri) {
+    const kurallar = sutVeri[grup];
+    const eslesen = kurallar.ilaclar.map(x => x.toLowerCase());
+    if (eslesen.includes(secilen) || eslesen.includes(etken)) {
+      const kriterler = kurallar.kriterler.map(k => `<li>${k}</li>`).join("");
+      sutKutusu.innerHTML += `
+        <h3>SUT Kuralları (${grup})</h3>
+        <ul>${kriterler}</ul>
+      `;
+      bulundu = true;
+    }
+  }
+
+  if (!bulundu) {
     sutKutusu.innerHTML = `<p>Bu ilaç için tanımlı SUT kuralı bulunamadı.</p>`;
   }
 }

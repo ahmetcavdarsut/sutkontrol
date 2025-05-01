@@ -22,15 +22,15 @@
 
 <h1>SUT Kontrol Sistemi</h1>
 
-<div id="loginScreen">
+<!-- login removed start -->
   <h2>Giriş Yap</h2>
   <input type="text" id="username" placeholder="Kullanıcı Adı">
   <input type="password" id="password" placeholder="Şifre">
   <button onclick="login()">Giriş Yap</button>
   <div id="loginError" style="color: red; margin-top: 10px;"></div>
-</div>
+<!-- login removed end -->
 
-<div id="mainContent" style="display:none;">
+<div id="mainContent" style="display:block;">
 
   <h2>İlaç Arama:</h2>
   <input type="text" id="ilacArama" placeholder="İlaç ismi, barkod veya etken madde yazın..." oninput="aramaYap()" onclick="aramaYap()">
@@ -64,7 +64,7 @@ fetch('ilaclar_sut.json')
   .then(response => response.json())
   .then(data => { sutKurallari = data; });
 
-function login() {
+function login() { document.getElementById('mainContent').style.display = 'block'; } // giriş kaldırıldı
   const username = document.getElementById('username').value;
   const password = document.getElementById('password').value;
   if (username === "admin" && password === "73597359") {

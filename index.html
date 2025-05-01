@@ -59,9 +59,10 @@ function aramaYap() {
 function ilacSec(ilac) {
   const sutKutusu = document.getElementById("sutKutusu");
   const secilen = ilac.isim.toLowerCase();
+  const etken = ilac.etken_madde.toLowerCase();
 
   const grup421 = sutVeri["4.2.1"];
-  if (grup421 && grup421.ilaclar.map(x => x.toLowerCase()).includes(secilen)) {
+  if (grup421 && grup421.ilaclar.map(x => x.toLowerCase()).includes(secilen) || grup421.ilaclar.map(x => x.toLowerCase()).includes(etken)) {
     const kriterler = grup421.kriterler.map(k => `<li>${k}</li>`).join("");
     sutKutusu.innerHTML = `
       <h3>SUT Kuralları (4.2.1)</h3>

@@ -1,8 +1,9 @@
+
 <!DOCTYPE html>
 <html lang="tr">
 <head>
   <meta charset="UTF-8">
-  <title>İlaç Arama</title>
+  <title>İlaç Arama ve SUT</title>
   <style>
     body { font-family: Arial; padding: 20px; background: #f9f9f9; }
     h1 { color: #2c3e50; }
@@ -10,6 +11,7 @@
     ul { list-style: none; padding: 0; background: white; border: 1px solid #ccc; max-height: 300px; overflow-y: auto; }
     li { padding: 8px; border-bottom: 1px solid #eee; cursor: pointer; }
     li:hover { background: #f0f0f0; }
+    #sutKutusu { margin-top: 20px; padding: 15px; background: #eef; border: 1px solid #ccc; }
   </style>
 </head>
 <body>
@@ -17,18 +19,26 @@
 <h1>İlaç Arama</h1>
 <input type="text" id="ilacArama" placeholder="İlaç adı, barkod veya etken madde..." oninput="aramaYap()">
 <ul id="sonuclar"></ul>
+<div id="sutKutusu"></div>
 
 <script>
 let ilaclar = [];
+let sutVeri = {};
 
 fetch('ilaclar_listesi.json')
   .then(res => res.json())
   .then(data => ilaclar = data);
 
+fetch('ilaclar_sut.json')
+  .then(res => res.json())
+  .then(data => sutVeri = data);
+
 function aramaYap() {
   const input = document.getElementById("ilacArama").value.toLowerCase();
   const sonuclar = document.getElementById("sonuclar");
+  const sutKutusu = document.getElementById("sutKutusu");
   sonuclar.innerHTML = "";
+  sutKutusu.innerHTML = "";
 
   if (input.length < 3) return;
 
@@ -41,9 +51,25 @@ function aramaYap() {
   filtreli.slice(0, 100).forEach(ilac => {
     const li = document.createElement("li");
     li.textContent = `${ilac.isim} - ${ilac.etken_madde} (Barkod: ${ilac.barkod})`;
-    li.onclick = () => alert(ilac.isim + " seçildi.");
+    li.onclick = () => ilacSec(ilac);
     sonuclar.appendChild(li);
   });
+}
+
+function ilacSec(ilac) {
+  const sutKutusu = document.getElementById("sutKutusu");
+  const secilen = ilac.isim.toLowerCase();
+
+  const grup421 = sutVeri["4.2.1"];
+  if (grup421 && grup421.ilaclar.map(x => x.toLowerCase()).includes(secilen)) {
+    const kriterler = grup421.kriterler.map(k => `<li>${k}</li>`).join("");
+    sutKutusu.innerHTML = `
+      <h3>SUT Kuralları (4.2.1)</h3>
+      <ul>${kriterler}</ul>
+    `;
+  } else {
+    sutKutusu.innerHTML = `<p>Bu ilaç için tanımlı SUT kuralı bulunamadı.</p>`;
+  }
 }
 </script>
 

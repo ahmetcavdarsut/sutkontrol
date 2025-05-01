@@ -1,9 +1,36 @@
 {
-  "EXFORGE": "Monoterapi ile kontrol sağlanamamışsa reçetelenebilir.",
-  "ARANESP": "Hb < 10, idamede Hb ≤ 12. TSAT ≥ 20% veya ferritin ≥ 100 ng/mL.",
-  "CRESTOR": "LDL hedef değerine ulaşılamamışsa kullanılabilir.",
-  "ANTIHIPERTANSIFLER": "Hipertansiyon monoterapiyle kontrol altına alınamamış olmalı.",
-  "ERITROPOETINLER": "Hb < 10, TSAT ≥ 20% veya ferritin ≥ 100 aranmaktadır.",
-  "STATINLER": "LDL hedefi sağlanamamışsa statin tedavisi uygundur.",
-  "PPI": "Uzun süreli kullanım için gastroenterolog raporu gerekebilir."
+  "4.2.1": {
+    "grup": "Biyolojik ajanlar ve JAK inhibitörleri",
+    "ilaclar": [
+      "adalimumab",
+      "etanercept",
+      "infliximab",
+      "golimumab",
+      "certolizumab pegol",
+      "rituksimab",
+      "abatacept",
+      "ustekinumab",
+      "tosilizumab",
+      "kanakinumab",
+      "anakinra",
+      "sekukinumab",
+      "iksekizumab",
+      "guselkumab",
+      "risankizumab",
+      "vedolizumab",
+      "bimekizumab",
+      "tofacitinib",
+      "barisitinib",
+      "upadasitinib",
+      "abrositinib",
+      "apremilast"
+    ],
+    "kriterler": [
+      "En az 3 uzman hekimden oluşan sağlık kurulu raporu gereklidir (romatoloji, dermatoloji, gastroenteroloji vb.).",
+      "Başlangıç kriterleri: Tanı kesinleşmeli, hastalık şiddetli olmalı ve önceki tedavilere yanıtsızlık belgelenmelidir.",
+      "Tedaviye 6 ay (rituksimab için 12 ay) ara verilirse, yeniden başlangıç kriterleri aranır.",
+      "Klinik ve laboratuvar takibi düzenli yapılmalıdır.",
+      "Endikasyonlar: Romatoid artrit, ankilozan spondilit, psöriyazis, ülseratif kolit, Crohn, juvenil artrit vb."
+    ]
+  }
 }

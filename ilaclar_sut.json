@@ -32,5 +32,36 @@
       "Klinik ve laboratuvar takibi düzenli yapılmalıdır.",
       "Endikasyonlar: Romatoid artrit, ankilozan spondilit, psöriyazis, ülseratif kolit, Crohn, juvenil artrit vb."
     ]
+  },
+  "4.2.2": {
+    "grup": "Antidepresanlar ve Antipsikotikler",
+    "ilaclar": [
+      "fluoksetin",
+      "paroksetin",
+      "sertralin",
+      "sitalopram",
+      "escitalopram",
+      "venlafaksin",
+      "duloksetin",
+      "mirtazapin",
+      "amitriptilin",
+      "trazodon",
+      "aripiprazol",
+      "risperidon",
+      "olanzapin",
+      "klozapin",
+      "kvetiapin",
+      "haloperidol",
+      "lamotrijin",
+      "valproat",
+      "karbamazepin",
+      "lityum"
+    ],
+    "kriterler": [
+      "Reçeteleme yalnızca psikiyatri uzmanı veya psikiyatri uzmanının yer aldığı sağlık kurulu tarafından yapılabilir.",
+      "Kullanım endikasyonu belgelenmiş olmalıdır (majör depresyon, bipolar bozukluk, şizofreni vb.).",
+      "İlaçların uzun süreli kullanımında periyodik değerlendirme gereklidir.",
+      "Bazı ajanlar için kan düzeyi takibi yapılmalıdır (örn. lityum, valproat)."
+    ]
   }
 }

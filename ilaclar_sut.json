@@ -1,0 +1,9 @@
+{
+  "EXFORGE": "Monoterapi ile kontrol sağlanamamışsa reçetelenebilir.",
+  "ARANESP": "Hb < 10, idamede Hb ≤ 12. TSAT ≥ 20% veya ferritin ≥ 100 ng/mL.",
+  "CRESTOR": "LDL hedef değerine ulaşılamamışsa kullanılabilir.",
+  "ANTIHIPERTANSIFLER": "Hipertansiyon monoterapiyle kontrol altına alınamamış olmalı.",
+  "ERITROPOETINLER": "Hb < 10, TSAT ≥ 20% veya ferritin ≥ 100 aranmaktadır.",
+  "STATINLER": "LDL hedefi sağlanamamışsa statin tedavisi uygundur.",
+  "PPI": "Uzun süreli kullanım için gastroenterolog raporu gerekebilir."
+}

@@ -1,4 +1,131 @@
 {
+  "4.2.1": {
+    "grup": "Biyolojik ajanlar ve JAK inhibitörleri",
+    "ilaclar": [
+      "adalimumab",
+      "etanercept",
+      "infliximab",
+      "golimumab",
+      "certolizumab pegol",
+      "rituksimab",
+      "abatacept",
+      "ustekinumab",
+      "tosilizumab",
+      "kanakinumab",
+      "anakinra",
+      "sekukinumab",
+      "iksekizumab",
+      "guselkumab",
+      "risankizumab",
+      "vedolizumab",
+      "bimekizumab",
+      "tofacitinib",
+      "barisitinib",
+      "upadasitinib",
+      "abrositinib",
+      "apremilast"
+    ],
+    "kriterler": [
+      "En az 3 uzman hekimden oluşan sağlık kurulu raporu gereklidir (romatoloji, dermatoloji, gastroenteroloji vb.).",
+      "Başlangıç kriterleri: Tanı kesinleşmeli, hastalık şiddetli olmalı ve önceki tedavilere yanıtsızlık belgelenmelidir.",
+      "Tedaviye 6 ay (rituksimab için 12 ay) ara verilirse, yeniden başlangıç kriterleri aranır.",
+      "Klinik ve laboratuvar takibi düzenli yapılmalıdır.",
+      "Endikasyonlar: Romatoid artrit, ankilozan spondilit, psöriyazis, ülseratif kolit, Crohn, juvenil artrit vb."
+    ]
+  },
+  "4.2.2": {
+    "grup": "Antidepresanlar ve Antipsikotikler",
+    "ilaclar": [
+      "fluoksetin",
+      "paroksetin",
+      "sertralin",
+      "sitalopram",
+      "escitalopram",
+      "venlafaksin",
+      "duloksetin",
+      "mirtazapin",
+      "amitriptilin",
+      "trazodon",
+      "aripiprazol",
+      "risperidon",
+      "olanzapin",
+      "klozapin",
+      "kvetiapin",
+      "haloperidol",
+      "lamotrijin",
+      "valproat",
+      "karbamazepin",
+      "lityum"
+    ],
+    "kriterler": [
+      "Reçeteleme yalnızca psikiyatri uzmanı veya psikiyatri uzmanının yer aldığı sağlık kurulu tarafından yapılabilir.",
+      "Kullanım endikasyonu belgelenmiş olmalıdır (majör depresyon, bipolar bozukluk, şizofreni vb.).",
+      "İlaçların uzun süreli kullanımında periyodik değerlendirme gereklidir.",
+      "Bazı ajanlar için kan düzeyi takibi yapılmalıdır (örn. lityum, valproat)."
+    ]
+  },
+  "4.2.3": {
+    "grup": "Epilepsi Tedavisinde Kullanılan İlaçlar",
+    "ilaclar": [
+      "karbamazepin",
+      "valproat",
+      "levetirasetam",
+      "lamotrijin",
+      "topiramat",
+      "okskarbazepin",
+      "fenitoin",
+      "gabapentin",
+      "pregabalin"
+    ],
+    "kriterler": [
+      "Nöroloji, çocuk nörolojisi veya çocuk sağlığı ve hastalıkları uzmanı reçeteleyebilir.",
+      "Klinik tanı ve EEG bulguları doğrultusunda reçetelenmelidir.",
+      "Monoterapi veya kombine tedavi kullanım gerekçesi belirtilmelidir.",
+      "Takip raporlarında doz ve tedavi uyumu gösterilmelidir."
+    ]
+  },
+  "4.2.4": {
+    "grup": "Parkinson Hastalığı Tedavisi",
+    "ilaclar": [
+      "levodopa+karbidopa",
+      "pramipeksol",
+      "ropinirol",
+      "entakapon",
+      "selegilin",
+      "rasajilin",
+      "safinamid"
+    ],
+    "kriterler": [
+      "Yalnızca nöroloji uzmanı tarafından reçete edilebilir.",
+      "Tanı ve levodopa yanıtı belgelenmelidir.",
+      "Kombinasyon tedavileri için açıklama gereklidir."
+    ]
+  },
+  "4.2.5": {
+    "grup": "Alzheimer Hastalığı Tedavisi",
+    "ilaclar": [
+      "donepezil",
+      "rivastigmin",
+      "galantamin",
+      "memantin"
+    ],
+    "kriterler": [
+      "Nöroloji veya geriatri uzmanı tarafından reçete edilmelidir.",
+      "Mini Mental Test (MMSE) sonucu raporda yer almalıdır.",
+      "Tedaviye 6 ayda bir değerlendirme ile devam edilir."
+    ]
+  },
+  "4.2.6": {
+    "grup": "Büyüme Hormonu (Somatotropin) Kullanımı",
+    "ilaclar": [
+      "somatropin"
+    ],
+    "kriterler": [
+      "Pediatri endokrinolojisi uzmanı tarafından reçete edilmelidir.",
+      "Büyüme hızı, IGF-1 düzeyi ve kemik yaşı belgelenmelidir.",
+      "Tedavi 6 ayda bir klinik ve laboratuvar verileri ile izlenmelidir."
+    ]
+  },
   "4.2.7": {
     "grup": "Multipl Skleroz (MS) Tedavisi",
     "ilaclar": [

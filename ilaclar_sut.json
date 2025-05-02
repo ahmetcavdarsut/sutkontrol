@@ -186,5 +186,78 @@
       "Reçeteleyen uzman: nöroloji, geriatri veya psikiyatri olmalıdır.",
       "Tanı belgelenmeli ve klinik bulgularla desteklenmelidir."
     ]
+  },
+  "4.2.11": {
+    "grup": "Astım ve KOAH Tedavisi",
+    "ilaclar": [
+      "salbutamol",
+      "formoterol",
+      "salmeterol",
+      "budesonid",
+      "flutikazon",
+      "tiotropium",
+      "ipratropium"
+    ],
+    "kriterler": [
+      "Göğüs hastalıkları uzmanı veya çocuk alerji uzmanı tarafından reçete edilmelidir.",
+      "Spirometri ile tanı belgelenmelidir (örneğin, FEV1/FVC < %70).",
+      "Kombinasyon tedavilerinde ICS + LABA/LAMA gerekçesi belirtilmelidir."
+    ]
+  },
+  "4.2.12": {
+    "grup": "Diyabet Tedavisinde Kullanılan İlaçlar",
+    "ilaclar": [
+      "metformin",
+      "glimepirid",
+      "sitagliptin",
+      "linagliptin",
+      "dapagliflozin",
+      "empagliflozin",
+      "dulaglutid",
+      "glargin",
+      "aspart",
+      "detemir",
+      "janumet",
+      "galvus met",
+      "jardiance",
+      "trajenta",
+      "forziga"
+    ],
+    "kriterler": [
+      "Endokrinoloji, iç hastalıkları veya çocuk endokrinoloji uzmanı tarafından reçete edilmelidir.",
+      "HbA1c > 7.0 olan hastalar için reçetelenebilir.",
+      "İnsülin dışı tedavilerde iki veya daha fazla ajan kombinasyonu gerekçelendirilmelidir.",
+      "Aşağıdaki ilaçlar için raporda şu ifade aranmalıdır: 'Metformin ve/veya sülfonilürelerin maksimum tolere edilebilir dozlarında yeterli glisemik kontrol sağlanamamış hasta': janumet, galvus met, jardiance, trajenta, forziga."
+    ]
+  },
+  "4.2.13": {
+    "grup": "Osteoporoz ve Kemik Metabolizması",
+    "ilaclar": [
+      "alendronat",
+      "risedronat",
+      "zoledronik asit",
+      "denosumab",
+      "kalsitonin",
+      "raloksifen"
+    ],
+    "kriterler": [
+      "DEXA ile tanı belgelenmelidir (T skoru ≤ -2.5).",
+      "Fizik tedavi, kadın hastalıkları, ortopedi veya iç hastalıkları uzmanı reçeteleyebilir.",
+      "Tedavi süresi genellikle 3 yıl ile sınırlıdır."
+    ]
+  },
+  "4.2.14": {
+    "grup": "Romatolojik İlaçlar (non-biolojik)",
+    "ilaclar": [
+      "metotreksat",
+      "sülfasalazin",
+      "leflunomid",
+      "hidroksiklorokin"
+    ],
+    "kriterler": [
+      "Romatoloji, iç hastalıkları veya fizik tedavi uzmanı tarafından reçete edilmelidir.",
+      "Tanı raporu belgelenmelidir (örneğin RA, SLE, AS vb.).",
+      "Klinik takip formu gereklidir."
+    ]
   }
 }

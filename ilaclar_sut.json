@@ -205,5 +205,167 @@
       "NYHA sınıf II-IV hastalar için uygunluk sağlanmalıdır.",
       "Düzenli takip ve fonksiyonel sınıf değerlendirmesi yapılmalıdır."
     ]
+  },
+  "4.2.20": {
+    "grup": "Nadir Enzim Eksiklikleri (LSD - Lizozomal Depo Hastalıkları)",
+    "ilaclar": [
+      "imiglucerase",
+      "velaglucerase alfa",
+      "agalsidase beta",
+      "idursulfase",
+      "elosulfase alfa"
+    ],
+    "kriterler": [
+      "Lizozomal depo hastalığı tanısı biyokimyasal ve/veya genetik test ile belgelenmelidir.",
+      "Tedavi yalnızca bu hastalıklarla ilgilenen uzman hekimlerce başlatılmalı ve sürdürülmelidir.",
+      "Düzenli laboratuvar ve klinik takip yapılmalıdır.",
+      "Uygun dozlar sağlık kurulu raporunda belirtilmelidir."
+    ]
+  },
+  "4.2.21": {
+    "grup": "Mitokondriyal Hastalıklar",
+    "ilaclar": [
+      "koenzim q10",
+      "riboflavin",
+      "l-karnitin",
+      "tiyamin"
+    ],
+    "kriterler": [
+      "Mitokondriyal hastalık tanısı, biyopsi ve/veya genetik test ile belgelenmelidir.",
+      "Tedavi metabolizma veya nöroloji uzmanı tarafından planlanmalıdır.",
+      "Sağlık kurulu raporu gereklidir.",
+      "Uygulanan tedaviye ilişkin klinik yanıt değerlendirmeleri düzenli yapılmalıdır."
+    ]
+  },
+  "4.2.22": {
+    "grup": "Endokrin Bozukluklarda Kullanılan Hormonlar",
+    "ilaclar": [
+      "levotiroksin",
+      "liotironin",
+      "hidrokortizon",
+      "fludrokortizon",
+      "desmopressin"
+    ],
+    "kriterler": [
+      "Endokrin bozukluk tanısı (hipotiroidi, adrenal yetmezlik, diabetes insipidus vb.) belgelenmelidir.",
+      "Tedavi endokrinoloji uzmanı tarafından başlanmalı ve izlenmelidir.",
+      "Doz ve endikasyon sağlık kurulu raporunda açıkça belirtilmelidir.",
+      "Tedaviye yanıt ve gereklilik düzenli aralıklarla kontrol edilmelidir."
+    ]
+  },
+  "4.2.23": {
+    "grup": "Metabolik Hastalıklarda Kullanılan Tıbbi Mamalar",
+    "ilaclar": [
+      "fenilketonüri mamaları",
+      "löysin kısıtlı mamalar",
+      "glutensiz formülasyonlar",
+      "galaktozemi mamaları"
+    ],
+    "kriterler": [
+      "Tanı metabolik hastalık merkezi tarafından konmuş olmalıdır.",
+      "Özel formülasyonlar sadece ilgili hastalığa özel olarak endikedir.",
+      "Sağlık kurulu raporu zorunludur ve içeriği detaylı hazırlanmalıdır.",
+      "Kullanım süresi ve dozu, ilgili uzman tarafından belirlenmeli ve takip edilmelidir."
+    ]
+  },
+  "4.2.24": {
+    "grup": "Hematolojik Hastalıklarda Kullanılan İlaçlar",
+    "ilaclar": [
+      "hidroksiüre",
+      "desferroksamin",
+      "eltrombopag",
+      "romiplostim"
+    ],
+    "kriterler": [
+      "Tanı hematoloji uzmanı tarafından konulmalı ve belgelenmelidir.",
+      "İlaç endikasyonu: orak hücreli anemi, talasemi, ITP, aplastik anemi gibi hematolojik hastalıklar olmalıdır.",
+      "Tedavi sağlık kurulu raporu ile belgelenmeli, doz ve süre belirtilmelidir.",
+      "Kan değerleri ile tedavi etkinliği izlenmelidir."
+    ]
+  },
+  "4.2.25": {
+    "grup": "Onkoloji ve Hematoloji Destek Tedavileri",
+    "ilaclar": [
+      "filgrastim",
+      "pegfilgrastim",
+      "epoetin alfa",
+      "darbepoetin alfa",
+      "mesna",
+      "palonosetron"
+    ],
+    "kriterler": [
+      "Kullanım endikasyonu kemoterapiye bağlı nötropeni, anemi veya kusma gibi yan etkilerin önlenmesi/tedavisidir.",
+      "Onkoloji veya hematoloji uzmanı tarafından reçetelenmelidir.",
+      "Sağlık kurulu raporu gereklidir ve kemoterapi protokolüyle ilişkili olarak değerlendirilmelidir.",
+      "Tedavi etkinliği laboratuvar ve klinik bulgularla izlenmelidir."
+    ]
+  },
+  "4.2.26": {
+    "grup": "Hepatit C Tedavisi",
+    "ilaclar": [
+      "sofosbuvir",
+      "ledipasvir",
+      "velpatasvir",
+      "glecaprevir",
+      "pibrentasvir"
+    ],
+    "kriterler": [
+      "Kronik hepatit C tanısı PCR ile doğrulanmış olmalıdır.",
+      "Tedavi infeksiyon hastalıkları veya gastroenteroloji uzmanı tarafından planlanmalıdır.",
+      "Fibroz evresi (Fib-4, elastografi vb.) ve HCV genotipi dikkate alınmalıdır.",
+      "Sağlık kurulu raporu zorunludur."
+    ]
+  },
+  "4.2.27": {
+    "grup": "Pulmoner Fibrozis ve Nadir Akciğer Hastalıkları",
+    "ilaclar": [
+      "nintedanib",
+      "pirfenidon"
+    ],
+    "kriterler": [
+      "Tanı göğüs hastalıkları uzmanı tarafından konulmalıdır.",
+      "Yüksek çözünürlüklü toraks BT raporu ile fibrozis belgelenmelidir.",
+      "6 dakika yürüme testi, DLCO ve FVC ile fonksiyonel takip yapılmalıdır.",
+      "Tedavi sağlık kurulu raporu ile belgelenmelidir."
+    ]
+  },
+  "4.2.28": {
+    "grup": "Pulmoner Hipertansiyon Tedavisinde Destek Tedavi Ajanları",
+    "ilaclar": [
+      "riociguat",
+      "bosentan"
+    ],
+    "kriterler": [
+      "PAH tanısı sağ kalp kateterizasyonu ile belgelenmiş olmalıdır.",
+      "Tedavi göğüs hastalıkları, kardiyoloji uzmanı ve kurul onayı ile başlanmalıdır.",
+      "Fonksiyonel sınıf NYHA II-IV arasında olmalıdır."
+    ]
+  },
+  "4.2.29": {
+    "grup": "Multipl Endokrin Neoplazi ve Nadir Tümörlerde Hedefe Yönelik Tedaviler",
+    "ilaclar": [
+      "vandetanib",
+      "cabozantinib",
+      "everolimus"
+    ],
+    "kriterler": [
+      "Moleküler patoloji veya immünohistokimya ile tanı belgelenmelidir.",
+      "Tedavi medikal onkoloji uzmanı tarafından planlanmalıdır.",
+      "Sağlık kurulu raporu ve klinik evreleme gereklidir."
+    ]
+  },
+  "4.2.30": {
+    "grup": "Nörolojik Nadir Hastalıklar (SMN, ALS, DMD)",
+    "ilaclar": [
+      "nusinersen",
+      "risdiplam",
+      "edaravon",
+      "deflazacort"
+    ],
+    "kriterler": [
+      "Tanı nöroloji uzmanı tarafından konulmalı ve genetik testle belgelenmelidir.",
+      "Motor fonksiyon skalaları ve klinik takip zorunludur.",
+      "Tedavi sağlık kurulu onayıyla başlanmalı ve sürdürülmelidir."
+    ]
   }
 }

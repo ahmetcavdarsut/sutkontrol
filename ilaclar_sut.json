@@ -7,17 +7,21 @@
       "infliximab"
     ],
     "kriterler": [
-      "Sağlık kurulu raporu gereklidir."
+      "Sağlık kurulu raporu gereklidir.",
+      "Başlangıçta diğer tedavilere yanıt alınamamalı.",
+      "Tedaviye ara verilirse yeniden değerlendirme gerekir."
     ]
   },
   "4.2.2": {
     "grup": "Antidepresanlar",
     "ilaclar": [
       "sertralin",
-      "fluoksetin"
+      "fluoksetin",
+      "paroksetin"
     ],
     "kriterler": [
-      "Psikiyatri uzmanı tarafından reçete edilmelidir."
+      "Psikiyatri uzmanı tarafından reçete edilmelidir.",
+      "Tanı belgelenmiş olmalıdır (depresyon, anksiyete vb.)."
     ]
   },
   "4.2.3": {
@@ -112,12 +116,14 @@
   "4.2.12": {
     "grup": "Diyabet Tedavisi",
     "ilaclar": [
-      "metformin",
       "janumet",
-      "jardiance"
+      "galvus met",
+      "jardiance",
+      "trajenta",
+      "forziga"
     ],
     "kriterler": [
-      "HbA1c > 7, metformin/sülfonilüreye yanıt yoksa reçete edilir."
+      "Rapor içeriğinde 'metformin ve/veya sülfonilürelerin maksimum tolere edilebilir dozlarında yeterli glisemik kontrol sağlanamamış hasta' ifadesi yer almalıdır."
     ]
   },
   "4.2.13": {
@@ -148,7 +154,7 @@
     ],
     "kriterler": [
       "PCR ile doğrulanmış HBV DNA > 2000 IU/mL + ALT yüksekliği gerekir.",
-      "Biyopsi ile nekroinflamasyon varsa da uygundur."
+      "HBsAg taşıyıcısı olup karaciğer biyopsisinde nekroinflamasyon varsa da uygundur."
     ]
   },
   "4.2.16": {
@@ -158,7 +164,7 @@
       "meropenem"
     ],
     "kriterler": [
-      "Kültür-antibiyogram ile direnç gösterilmeli."
+      "Kültür-antibiyogram ile direnç gösterilmelidir."
     ]
   },
   "4.2.17": {
@@ -179,6 +185,25 @@
     ],
     "kriterler": [
       "Balgam yayma/kültür ile tanı gerekir."
+    ]
+  },
+  "4.2.19": {
+    "grup": "Pulmoner Arteriyel Hipertansiyon (PAH)",
+    "ilaclar": [
+      "bosentan",
+      "ambrisentan",
+      "sildenafil",
+      "tadalafil",
+      "epoprostenol",
+      "iloprost",
+      "treprostinil",
+      "riociguat"
+    ],
+    "kriterler": [
+      "PAH tanısı ekokardiyografi, sağ kalp kateterizasyonu ve pulmoner fonksiyon testleri ile belgelenmiş olmalıdır.",
+      "Tedavi kararı, kardiyoloji veya göğüs hastalıkları uzmanının yer aldığı sağlık kurulu tarafından verilmelidir.",
+      "NYHA sınıf II-IV hastalar için uygunluk sağlanmalıdır.",
+      "Düzenli takip ve fonksiyonel sınıf değerlendirmesi yapılmalıdır."
     ]
   }
 }

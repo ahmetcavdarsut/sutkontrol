@@ -33,231 +33,67 @@
       "Endikasyonlar: Romatoid artrit, ankilozan spondilit, psöriyazis, ülseratif kolit, Crohn, juvenil artrit vb."
     ]
   },
-  "4.2.2": {
-    "grup": "Antidepresanlar ve Antipsikotikler",
+  "4.2.15": {
+    "grup": "Antiviral İlaçlar (HIV, Hepatit B-C)",
     "ilaclar": [
-      "fluoksetin",
-      "paroksetin",
-      "sertralin",
-      "sitalopram",
-      "escitalopram",
-      "venlafaksin",
-      "duloksetin",
-      "mirtazapin",
-      "amitriptilin",
-      "trazodon",
-      "aripiprazol",
-      "risperidon",
-      "olanzapin",
-      "klozapin",
-      "kvetiapin",
-      "haloperidol",
-      "lamotrijin",
-      "valproat",
-      "karbamazepin",
-      "lityum"
+      "tenofovir",
+      "entekavir",
+      "lamivudin",
+      "sofosbuvir",
+      "daclatasvir",
+      "dolutegravir"
     ],
     "kriterler": [
-      "Reçeteleme yalnızca psikiyatri uzmanı veya psikiyatri uzmanının yer aldığı sağlık kurulu tarafından yapılabilir.",
-      "Kullanım endikasyonu belgelenmiş olmalıdır (majör depresyon, bipolar bozukluk, şizofreni vb.).",
-      "İlaçların uzun süreli kullanımında periyodik değerlendirme gereklidir.",
-      "Bazı ajanlar için kan düzeyi takibi yapılmalıdır (örn. lityum, valproat)."
+      "Enfeksiyon hastalıkları uzmanı tarafından reçete edilmelidir.",
+      "Tanı PCR ile doğrulanmalıdır (HBV DNA, HCV RNA, HIV RNA).",
+      "HBV için: HBV DNA > 2000 IU/mL olan ve ALT yüksekliği gösteren hastalarda tedavi uygundur.",
+      "HBsAg taşıyıcısı olup karaciğer biyopsisinde nekroinflamasyon saptanan hastalarda da tedavi mümkündür.",
+      "Kombinasyon tedavileri uzman görüşüne veya kurula dayalı olmalıdır."
     ]
   },
-  "4.2.3": {
-    "grup": "Epilepsi Tedavisinde Kullanılan İlaçlar",
+  "4.2.16": {
+    "grup": "Dirençli Antibiyotikler",
     "ilaclar": [
-      "karbamazepin",
-      "valproat",
-      "levetirasetam",
-      "lamotrijin",
-      "topiramat",
-      "okskarbazepin",
-      "fenitoin",
-      "gabapentin",
-      "pregabalin"
+      "linezolid",
+      "meropenem",
+      "kolistin",
+      "tigesiklin",
+      "vankomisin"
     ],
     "kriterler": [
-      "Nöroloji, çocuk nörolojisi veya çocuk sağlığı ve hastalıkları uzmanı reçeteleyebilir.",
-      "Klinik tanı ve EEG bulguları doğrultusunda reçetelenmelidir.",
-      "Monoterapi veya kombine tedavi kullanım gerekçesi belirtilmelidir.",
-      "Takip raporlarında doz ve tedavi uyumu gösterilmelidir."
+      "Kültür-antibiyogram sonucu ile direnç durumu belgelenmelidir.",
+      "Yoğun bakım veya enfeksiyon hastalıkları uzmanı tarafından reçete edilmelidir.",
+      "Tedavi süresi kısıtlıdır (genellikle 10–14 gün)."
     ]
   },
-  "4.2.4": {
-    "grup": "Parkinson Hastalığı Tedavisi",
+  "4.2.17": {
+    "grup": "Antifungal İlaçlar",
     "ilaclar": [
-      "levodopa+karbidopa",
-      "pramipeksol",
-      "ropinirol",
-      "entakapon",
-      "selegilin",
-      "rasajilin",
-      "safinamid"
+      "flukonazol",
+      "vorikonazol",
+      "amfoterisin B",
+      "kaspofungin",
+      "posakonazol"
     ],
     "kriterler": [
-      "Yalnızca nöroloji uzmanı tarafından reçete edilebilir.",
-      "Tanı ve levodopa yanıtı belgelenmelidir.",
-      "Kombinasyon tedavileri için açıklama gereklidir."
+      "İnvaziv fungal enfeksiyon tanısı olmalıdır.",
+      "Hematoloji-onkoloji, yoğun bakım veya enfeksiyon uzmanı tarafından reçete edilmelidir.",
+      "Tedaviye yanıt ve toksisite düzenli izlenmelidir."
     ]
   },
-  "4.2.5": {
-    "grup": "Alzheimer Hastalığı Tedavisi",
+  "4.2.18": {
+    "grup": "Tüberküloz Tedavisi",
     "ilaclar": [
-      "donepezil",
-      "rivastigmin",
-      "galantamin",
-      "memantin"
+      "izoniazid",
+      "rifampisin",
+      "etambutol",
+      "pirazinamid",
+      "streptomisin"
     ],
     "kriterler": [
-      "Nöroloji veya geriatri uzmanı tarafından reçete edilmelidir.",
-      "Mini Mental Test (MMSE) sonucu raporda yer almalıdır.",
-      "Tedaviye 6 ayda bir değerlendirme ile devam edilir."
-    ]
-  },
-  "4.2.6": {
-    "grup": "Büyüme Hormonu (Somatotropin) Kullanımı",
-    "ilaclar": [
-      "somatropin"
-    ],
-    "kriterler": [
-      "Pediatri endokrinolojisi uzmanı tarafından reçete edilmelidir.",
-      "Büyüme hızı, IGF-1 düzeyi ve kemik yaşı belgelenmelidir.",
-      "Tedavi 6 ayda bir klinik ve laboratuvar verileri ile izlenmelidir."
-    ]
-  },
-  "4.2.7": {
-    "grup": "Multipl Skleroz (MS) Tedavisi",
-    "ilaclar": [
-      "interferon beta-1a",
-      "interferon beta-1b",
-      "glatiramer asetat",
-      "fingolimod",
-      "dimetil fumarat",
-      "teriflunomid",
-      "natalizumab",
-      "okrelizumab"
-    ],
-    "kriterler": [
-      "Nöroloji uzmanı veya en az 3 kişilik sağlık kurulu tarafından reçete edilmelidir.",
-      "MS tanısı MR bulguları ve klinik kriterlerle belgelenmelidir.",
-      "Tedavi sürecinde periyodik klinik ve radyolojik değerlendirme yapılmalıdır."
-    ]
-  },
-  "4.2.8": {
-    "grup": "Antikoagülanlar (DOAK ve Warfarin)",
-    "ilaclar": [
-      "rivaroksaban",
-      "dabigatran",
-      "apiksaban",
-      "edoksaban",
-      "warfarin"
-    ],
-    "kriterler": [
-      "Kardiyoloji, kalp damar cerrahisi veya iç hastalıkları uzmanı tarafından reçete edilir.",
-      "Endikasyon: Atriyal fibrilasyon (AF), derin ven trombozu (DVT), pulmoner emboli (PE) gibi durumlar olmalıdır.",
-      "Warfarin kullanımı INR takibi ile desteklenmeli, hedef aralık belgelenmelidir."
-    ]
-  },
-  "4.2.9": {
-    "grup": "Antiplatelet Ajanlar",
-    "ilaclar": [
-      "klopidogrel",
-      "tikagrelor",
-      "prasugrel",
-      "asetilsalisilik asit"
-    ],
-    "kriterler": [
-      "Kardiyoloji uzmanı veya girişimsel işlem sonrası hekim tarafından reçete edilmelidir.",
-      "İkili antiplatelet tedavi süresi belirtilmeli (örneğin, 12 ay ASA + klopidogrel).",
-      "ASA gibi ajanlar düşük dozda reçetelenmelidir (örn. 100 mg)."
-    ]
-  },
-  "4.2.10": {
-    "grup": "Geriatrik Antidementif İlaçlar",
-    "ilaclar": [
-      "ginkgo biloba",
-      "pirasetam",
-      "vinpocetin",
-      "nikergolin"
-    ],
-    "kriterler": [
-      "65 yaş ve üzeri hastalarda kullanımı uygundur.",
-      "Reçeteleyen uzman: nöroloji, geriatri veya psikiyatri olmalıdır.",
-      "Tanı belgelenmeli ve klinik bulgularla desteklenmelidir."
-    ]
-  },
-  "4.2.11": {
-    "grup": "Astım ve KOAH Tedavisi",
-    "ilaclar": [
-      "salbutamol",
-      "formoterol",
-      "salmeterol",
-      "budesonid",
-      "flutikazon",
-      "tiotropium",
-      "ipratropium"
-    ],
-    "kriterler": [
-      "Göğüs hastalıkları uzmanı veya çocuk alerji uzmanı tarafından reçete edilmelidir.",
-      "Spirometri ile tanı belgelenmelidir (örneğin, FEV1/FVC < %70).",
-      "Kombinasyon tedavilerinde ICS + LABA/LAMA gerekçesi belirtilmelidir."
-    ]
-  },
-  "4.2.12": {
-    "grup": "Diyabet Tedavisinde Kullanılan İlaçlar",
-    "ilaclar": [
-      "metformin",
-      "glimepirid",
-      "sitagliptin",
-      "linagliptin",
-      "dapagliflozin",
-      "empagliflozin",
-      "dulaglutid",
-      "glargin",
-      "aspart",
-      "detemir",
-      "janumet",
-      "galvus met",
-      "jardiance",
-      "trajenta",
-      "forziga"
-    ],
-    "kriterler": [
-      "Endokrinoloji, iç hastalıkları veya çocuk endokrinoloji uzmanı tarafından reçete edilmelidir.",
-      "HbA1c > 7.0 olan hastalar için reçetelenebilir.",
-      "İnsülin dışı tedavilerde iki veya daha fazla ajan kombinasyonu gerekçelendirilmelidir.",
-      "Aşağıdaki ilaçlar için raporda şu ifade aranmalıdır: 'Metformin ve/veya sülfonilürelerin maksimum tolere edilebilir dozlarında yeterli glisemik kontrol sağlanamamış hasta': janumet, galvus met, jardiance, trajenta, forziga."
-    ]
-  },
-  "4.2.13": {
-    "grup": "Osteoporoz ve Kemik Metabolizması",
-    "ilaclar": [
-      "alendronat",
-      "risedronat",
-      "zoledronik asit",
-      "denosumab",
-      "kalsitonin",
-      "raloksifen"
-    ],
-    "kriterler": [
-      "DEXA ile tanı belgelenmelidir (T skoru ≤ -2.5).",
-      "Fizik tedavi, kadın hastalıkları, ortopedi veya iç hastalıkları uzmanı reçeteleyebilir.",
-      "Tedavi süresi genellikle 3 yıl ile sınırlıdır."
-    ]
-  },
-  "4.2.14": {
-    "grup": "Romatolojik İlaçlar (non-biolojik)",
-    "ilaclar": [
-      "metotreksat",
-      "sülfasalazin",
-      "leflunomid",
-      "hidroksiklorokin"
-    ],
-    "kriterler": [
-      "Romatoloji, iç hastalıkları veya fizik tedavi uzmanı tarafından reçete edilmelidir.",
-      "Tanı raporu belgelenmelidir (örneğin RA, SLE, AS vb.).",
-      "Klinik takip formu gereklidir."
+      "Göğüs hastalıkları uzmanı veya verem savaş dispanseri tarafından reçete edilmelidir.",
+      "Tanı balgam yayma, kültür veya PCR ile doğrulanmalıdır.",
+      "Tedavi şeması ve süresi Sağlık Bakanlığı rehberine uygun olmalıdır."
     ]
   }
 }

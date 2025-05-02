@@ -4,96 +4,181 @@
     "ilaclar": [
       "adalimumab",
       "etanercept",
-      "infliximab",
-      "golimumab",
-      "certolizumab pegol",
-      "rituksimab",
-      "abatacept",
-      "ustekinumab",
-      "tosilizumab",
-      "kanakinumab",
-      "anakinra",
-      "sekukinumab",
-      "iksekizumab",
-      "guselkumab",
-      "risankizumab",
-      "vedolizumab",
-      "bimekizumab",
-      "tofacitinib",
-      "barisitinib",
-      "upadasitinib",
-      "abrositinib",
-      "apremilast"
+      "infliximab"
     ],
     "kriterler": [
-      "En az 3 uzman hekimden oluşan sağlık kurulu raporu gereklidir (romatoloji, dermatoloji, gastroenteroloji vb.).",
-      "Başlangıç kriterleri: Tanı kesinleşmeli, hastalık şiddetli olmalı ve önceki tedavilere yanıtsızlık belgelenmelidir.",
-      "Tedaviye 6 ay (rituksimab için 12 ay) ara verilirse, yeniden başlangıç kriterleri aranır.",
-      "Klinik ve laboratuvar takibi düzenli yapılmalıdır.",
-      "Endikasyonlar: Romatoid artrit, ankilozan spondilit, psöriyazis, ülseratif kolit, Crohn, juvenil artrit vb."
+      "Sağlık kurulu raporu gereklidir."
+    ]
+  },
+  "4.2.2": {
+    "grup": "Antidepresanlar",
+    "ilaclar": [
+      "sertralin",
+      "fluoksetin"
+    ],
+    "kriterler": [
+      "Psikiyatri uzmanı tarafından reçete edilmelidir."
+    ]
+  },
+  "4.2.3": {
+    "grup": "Epilepsi Tedavisi",
+    "ilaclar": [
+      "valproat",
+      "karbamazepin"
+    ],
+    "kriterler": [
+      "Nöroloji uzmanı reçetelemelidir."
+    ]
+  },
+  "4.2.4": {
+    "grup": "Parkinson Hastalığı",
+    "ilaclar": [
+      "levodopa",
+      "pramipeksol"
+    ],
+    "kriterler": [
+      "Tanı belgelenmeli, nöroloji uzmanı reçetesi gerekir."
+    ]
+  },
+  "4.2.5": {
+    "grup": "Alzheimer Tedavisi",
+    "ilaclar": [
+      "donepezil",
+      "memantin"
+    ],
+    "kriterler": [
+      "MMSE belgesi gerekir."
+    ]
+  },
+  "4.2.6": {
+    "grup": "Büyüme Hormonu",
+    "ilaclar": [
+      "somatropin"
+    ],
+    "kriterler": [
+      "Endokrinoloji uzmanı reçetelemelidir."
+    ]
+  },
+  "4.2.7": {
+    "grup": "Multipl Skleroz",
+    "ilaclar": [
+      "interferon beta-1a",
+      "glatiramer asetat"
+    ],
+    "kriterler": [
+      "Nöroloji uzmanı veya kurul raporu gereklidir."
+    ]
+  },
+  "4.2.8": {
+    "grup": "Antikoagülanlar",
+    "ilaclar": [
+      "rivaroksaban",
+      "warfarin"
+    ],
+    "kriterler": [
+      "AF veya DVT tanısı gerekir."
+    ]
+  },
+  "4.2.9": {
+    "grup": "Antiplatelet Ajanlar",
+    "ilaclar": [
+      "klopidogrel",
+      "tikagrelor"
+    ],
+    "kriterler": [
+      "Girişim sonrası veya kardiyoloji uzmanı reçetelemelidir."
+    ]
+  },
+  "4.2.10": {
+    "grup": "Geriatrik Antidementifler",
+    "ilaclar": [
+      "ginkgo biloba",
+      "pirasetam"
+    ],
+    "kriterler": [
+      "65 yaş üstü, tanı belgelenmeli."
+    ]
+  },
+  "4.2.11": {
+    "grup": "Astım-KOAH Tedavisi",
+    "ilaclar": [
+      "salbutamol",
+      "formoterol"
+    ],
+    "kriterler": [
+      "Spirometri sonucu gerekir."
+    ]
+  },
+  "4.2.12": {
+    "grup": "Diyabet Tedavisi",
+    "ilaclar": [
+      "metformin",
+      "janumet",
+      "jardiance"
+    ],
+    "kriterler": [
+      "HbA1c > 7, metformin/sülfonilüreye yanıt yoksa reçete edilir."
+    ]
+  },
+  "4.2.13": {
+    "grup": "Osteoporoz",
+    "ilaclar": [
+      "alendronat",
+      "denosumab"
+    ],
+    "kriterler": [
+      "DEXA ile tanı belgelenmelidir."
+    ]
+  },
+  "4.2.14": {
+    "grup": "Romatolojik (non-biolojik)",
+    "ilaclar": [
+      "metotreksat",
+      "hidroksiklorokin"
+    ],
+    "kriterler": [
+      "Tanı belgelenmeli, düzenli takip gerekir."
     ]
   },
   "4.2.15": {
-    "grup": "Antiviral İlaçlar (HIV, Hepatit B-C)",
+    "grup": "Antiviral İlaçlar",
     "ilaclar": [
       "tenofovir",
-      "entekavir",
-      "lamivudin",
-      "sofosbuvir",
-      "daclatasvir",
-      "dolutegravir"
+      "entekavir"
     ],
     "kriterler": [
-      "Enfeksiyon hastalıkları uzmanı tarafından reçete edilmelidir.",
-      "Tanı PCR ile doğrulanmalıdır (HBV DNA, HCV RNA, HIV RNA).",
-      "HBV için: HBV DNA > 2000 IU/mL olan ve ALT yüksekliği gösteren hastalarda tedavi uygundur.",
-      "HBsAg taşıyıcısı olup karaciğer biyopsisinde nekroinflamasyon saptanan hastalarda da tedavi mümkündür.",
-      "Kombinasyon tedavileri uzman görüşüne veya kurula dayalı olmalıdır."
+      "PCR ile doğrulanmış HBV DNA > 2000 IU/mL + ALT yüksekliği gerekir.",
+      "Biyopsi ile nekroinflamasyon varsa da uygundur."
     ]
   },
   "4.2.16": {
     "grup": "Dirençli Antibiyotikler",
     "ilaclar": [
       "linezolid",
-      "meropenem",
-      "kolistin",
-      "tigesiklin",
-      "vankomisin"
+      "meropenem"
     ],
     "kriterler": [
-      "Kültür-antibiyogram sonucu ile direnç durumu belgelenmelidir.",
-      "Yoğun bakım veya enfeksiyon hastalıkları uzmanı tarafından reçete edilmelidir.",
-      "Tedavi süresi kısıtlıdır (genellikle 10–14 gün)."
+      "Kültür-antibiyogram ile direnç gösterilmeli."
     ]
   },
   "4.2.17": {
-    "grup": "Antifungal İlaçlar",
+    "grup": "Antifungaller",
     "ilaclar": [
       "flukonazol",
-      "vorikonazol",
-      "amfoterisin B",
-      "kaspofungin",
-      "posakonazol"
+      "vorikonazol"
     ],
     "kriterler": [
-      "İnvaziv fungal enfeksiyon tanısı olmalıdır.",
-      "Hematoloji-onkoloji, yoğun bakım veya enfeksiyon uzmanı tarafından reçete edilmelidir.",
-      "Tedaviye yanıt ve toksisite düzenli izlenmelidir."
+      "İnvaziv mantar enfeksiyonu tanısı gerekir."
     ]
   },
   "4.2.18": {
-    "grup": "Tüberküloz Tedavisi",
+    "grup": "Tüberküloz",
     "ilaclar": [
       "izoniazid",
-      "rifampisin",
-      "etambutol",
-      "pirazinamid",
-      "streptomisin"
+      "rifampisin"
     ],
     "kriterler": [
-      "Göğüs hastalıkları uzmanı veya verem savaş dispanseri tarafından reçete edilmelidir.",
-      "Tanı balgam yayma, kültür veya PCR ile doğrulanmalıdır.",
-      "Tedavi şeması ve süresi Sağlık Bakanlığı rehberine uygun olmalıdır."
+      "Balgam yayma/kültür ile tanı gerekir."
     ]
   }
 }

@@ -367,5 +367,21 @@
       "Motor fonksiyon skalaları ve klinik takip zorunludur.",
       "Tedavi sağlık kurulu onayıyla başlanmalı ve sürdürülmelidir."
     ]
+  },
+  "4.2.31": {
+    "grup": "İntravenöz İmmünglobulin (IVIG) Tedavileri",
+    "ilaclar": [
+      "gamunex-c",
+      "octagam",
+      "privigen",
+      "flebogamma",
+      "ivig"
+    ],
+    "kriterler": [
+      "Primer immün yetmezlik tanısı, immunoloji uzmanı tarafından konulmuş olmalıdır.",
+      "Tanı laboratuvar testleriyle belgelenmeli (IgG düzeyi, antikor yanıtı vb.).",
+      "Doz, tedavi süresi ve endikasyon sağlık kurulu raporunda açıkça belirtilmelidir.",
+      "Tedavi endikasyonu SUT kapsamında tanımlı hastalıklardan biri olmalıdır (ör. D80.0–D80.9)."
+    ]
   }
 }

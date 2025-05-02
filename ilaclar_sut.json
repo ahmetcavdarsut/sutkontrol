@@ -1,67 +1,63 @@
 {
-  "4.2.1": {
-    "grup": "Biyolojik ajanlar ve JAK inhibitörleri",
+  "4.2.7": {
+    "grup": "Multipl Skleroz (MS) Tedavisi",
     "ilaclar": [
-      "adalimumab",
-      "etanercept",
-      "infliximab",
-      "golimumab",
-      "certolizumab pegol",
-      "rituksimab",
-      "abatacept",
-      "ustekinumab",
-      "tosilizumab",
-      "kanakinumab",
-      "anakinra",
-      "sekukinumab",
-      "iksekizumab",
-      "guselkumab",
-      "risankizumab",
-      "vedolizumab",
-      "bimekizumab",
-      "tofacitinib",
-      "barisitinib",
-      "upadasitinib",
-      "abrositinib",
-      "apremilast"
+      "interferon beta-1a",
+      "interferon beta-1b",
+      "glatiramer asetat",
+      "fingolimod",
+      "dimetil fumarat",
+      "teriflunomid",
+      "natalizumab",
+      "okrelizumab"
     ],
     "kriterler": [
-      "En az 3 uzman hekimden oluşan sağlık kurulu raporu gereklidir (romatoloji, dermatoloji, gastroenteroloji vb.).",
-      "Başlangıç kriterleri: Tanı kesinleşmeli, hastalık şiddetli olmalı ve önceki tedavilere yanıtsızlık belgelenmelidir.",
-      "Tedaviye 6 ay (rituksimab için 12 ay) ara verilirse, yeniden başlangıç kriterleri aranır.",
-      "Klinik ve laboratuvar takibi düzenli yapılmalıdır.",
-      "Endikasyonlar: Romatoid artrit, ankilozan spondilit, psöriyazis, ülseratif kolit, Crohn, juvenil artrit vb."
+      "Nöroloji uzmanı veya en az 3 kişilik sağlık kurulu tarafından reçete edilmelidir.",
+      "MS tanısı MR bulguları ve klinik kriterlerle belgelenmelidir.",
+      "Tedavi sürecinde periyodik klinik ve radyolojik değerlendirme yapılmalıdır."
     ]
   },
-  "4.2.2": {
-    "grup": "Antidepresanlar ve Antipsikotikler",
+  "4.2.8": {
+    "grup": "Antikoagülanlar (DOAK ve Warfarin)",
     "ilaclar": [
-      "fluoksetin",
-      "paroksetin",
-      "sertralin",
-      "sitalopram",
-      "escitalopram",
-      "venlafaksin",
-      "duloksetin",
-      "mirtazapin",
-      "amitriptilin",
-      "trazodon",
-      "aripiprazol",
-      "risperidon",
-      "olanzapin",
-      "klozapin",
-      "kvetiapin",
-      "haloperidol",
-      "lamotrijin",
-      "valproat",
-      "karbamazepin",
-      "lityum"
+      "rivaroksaban",
+      "dabigatran",
+      "apiksaban",
+      "edoksaban",
+      "warfarin"
     ],
     "kriterler": [
-      "Reçeteleme yalnızca psikiyatri uzmanı veya psikiyatri uzmanının yer aldığı sağlık kurulu tarafından yapılabilir.",
-      "Kullanım endikasyonu belgelenmiş olmalıdır (majör depresyon, bipolar bozukluk, şizofreni vb.).",
-      "İlaçların uzun süreli kullanımında periyodik değerlendirme gereklidir.",
-      "Bazı ajanlar için kan düzeyi takibi yapılmalıdır (örn. lityum, valproat)."
+      "Kardiyoloji, kalp damar cerrahisi veya iç hastalıkları uzmanı tarafından reçete edilir.",
+      "Endikasyon: Atriyal fibrilasyon (AF), derin ven trombozu (DVT), pulmoner emboli (PE) gibi durumlar olmalıdır.",
+      "Warfarin kullanımı INR takibi ile desteklenmeli, hedef aralık belgelenmelidir."
+    ]
+  },
+  "4.2.9": {
+    "grup": "Antiplatelet Ajanlar",
+    "ilaclar": [
+      "klopidogrel",
+      "tikagrelor",
+      "prasugrel",
+      "asetilsalisilik asit"
+    ],
+    "kriterler": [
+      "Kardiyoloji uzmanı veya girişimsel işlem sonrası hekim tarafından reçete edilmelidir.",
+      "İkili antiplatelet tedavi süresi belirtilmeli (örneğin, 12 ay ASA + klopidogrel).",
+      "ASA gibi ajanlar düşük dozda reçetelenmelidir (örn. 100 mg)."
+    ]
+  },
+  "4.2.10": {
+    "grup": "Geriatrik Antidementif İlaçlar",
+    "ilaclar": [
+      "ginkgo biloba",
+      "pirasetam",
+      "vinpocetin",
+      "nikergolin"
+    ],
+    "kriterler": [
+      "65 yaş ve üzeri hastalarda kullanımı uygundur.",
+      "Reçeteleyen uzman: nöroloji, geriatri veya psikiyatri olmalıdır.",
+      "Tanı belgelenmeli ve klinik bulgularla desteklenmelidir."
     ]
   }
 }
